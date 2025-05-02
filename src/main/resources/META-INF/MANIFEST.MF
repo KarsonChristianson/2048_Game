@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: edu.umn.d.chri5410._2048_correct.GameApp
+
