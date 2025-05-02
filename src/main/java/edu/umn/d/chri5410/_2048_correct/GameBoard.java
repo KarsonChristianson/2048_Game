@@ -1,5 +1,14 @@
 package edu.umn.d.chri5410._2048_correct;
 
+/*
+ * Represents the 2048 game board and manages all tile movement, merging, and game state.
+ * Handles direction-based movement, spawn logic, and game-over detection.
+ *
+ * @author Karson
+ * @version 1.0
+ */
+
+
 import java.util.Random;
 
 public class GameBoard {
@@ -34,6 +43,16 @@ public class GameBoard {
             }
         }
     }
+
+    /**
+     * Moves all tiles on the board in the specified direction.
+     * Handles merging logic and updates the score using ScoreTracker.
+     *
+     * @param direction the direction of the move (UP, DOWN, LEFT, RIGHT)
+     * @param scoreTracker the score manager to update merge points
+     * @return true if any tiles moved or merged; false otherwise
+     */
+
 
     public boolean move(Direction direction, ScoreTracker scoreTracker) {
         boolean moved = false;

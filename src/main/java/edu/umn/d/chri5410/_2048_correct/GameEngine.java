@@ -1,5 +1,11 @@
 package edu.umn.d.chri5410._2048_correct;
 
+/**
+ * Acts as the logic controller for the game, bridging GameBoard and UI.
+ * Manages game state, score tracking, and handles input commands.
+ */
+
+
 public class GameEngine {
     private final GameBoard board;
     private final ScoreTracker scoreTracker = new ScoreTracker();

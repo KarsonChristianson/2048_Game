@@ -6,6 +6,14 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.scene.layout.StackPane;
 
+
+/**
+ * Responsible for rendering the game board state onto the JavaFX UI.
+ * Draws each tile using a color-coded grid and updates visuals after each move.
+ */
+
+
+
 public class GameRenderer {
     private static final int TILE_SIZE = 100;
     private static final int GAP = 5;

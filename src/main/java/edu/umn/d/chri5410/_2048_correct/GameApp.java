@@ -1,5 +1,13 @@
 package edu.umn.d.chri5410._2048_correct;
 
+/*
+ * Main JavaFX application class that initializes the window,
+ * listens for keyboard input, and updates the game view.
+
+ * Entry point for the 2048 game.
+ */
+
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
